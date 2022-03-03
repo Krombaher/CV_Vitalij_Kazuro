@@ -1,0 +1,53 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+body {
+    font-family: "Open Sans";
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* fonts------------------------------------------------------------------- */
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+
+/* header------------------------------------------------------------------- */
+
+.header {
+    background-color: #293e49;
+}
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}
+.nav_item {
+    margin: 10px;
+}
+.nav_link {
+    color: white;
+    font-size: 18px;
+}
+.nav_link:hover {
+    border: 2px solid #1abc9c;
+}
