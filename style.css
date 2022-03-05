@@ -49,7 +49,6 @@ body {
     justify-content: flex-end;
     flex-wrap:wrap;
     align-items: center;
-    height: 80px;
 }
 .nav_item {
     margin: 20px;
