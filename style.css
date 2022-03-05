@@ -43,7 +43,6 @@ body {
 
 .header {
     background-color: #293e49;
-    overflow:scroll;
 }
 .nav_list {
     display: flex;
